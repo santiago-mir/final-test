@@ -122,4 +122,9 @@ app.get("/rooms/:roomId", (req, res) => {
         }
     });
 });
+app.get("/hola", (req, res) => {
+    res.json({
+        message: "hola desde el sv",
+    });
+});
 app.listen(port, () => console.log("escuchando puerto" + port));
