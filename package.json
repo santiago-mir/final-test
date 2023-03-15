@@ -18,7 +18,7 @@
     "dev":"nodemon --watch ./server/index.ts --exec ts-node ./server/dev.ts",
     "dev:back": "ts-node ./server/index.ts",
     "dev:front": "parcel ./front/index.html",
-    "build:back": "tsc",
+    "build": "tsc",
     "start": "node ./server/index.js"
   },
   "devDependencies": {
